@@ -1,0 +1,27 @@
+{% extends 'layout.html'%}
+
+{%block body%}
+	<div class="jumbotron text-center">
+	<h1>Welcome to wSA</h1>
+	<p class="lead">w Sentimental Analysis</p>
+	<p class="lead">This app is build on Flask Framework</p>
+	
+	</div>
+
+	<p class="lead text-center" >Message which needs to be analyzed : <br><code>{{text}}</code></p>
+	<table class="table table-striped">
+		<tr>
+			<th>Label</th>
+			<th>Score</th>
+			<th>Elapsed Time</th>
+			
+			
+		</tr>
+			<tr>
+				<td id="m1">{{label}}</td>
+				<td id="m2">{{score}}</td>
+				<td id="m2">{{time}} s</td>
+			</tr>
+		
+	</table>
+{%endblock%}

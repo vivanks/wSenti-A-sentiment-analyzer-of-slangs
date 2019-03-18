@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron text-center">
+	<h1>Welcome to wSA</h1>
+	<p class="lead">w Sentimental Analysis</p>
+</div>
+<ul class="list-group">
+			<form method="POST" action="">
+				<div class="form-group">
+					<label>Enter the messgae you want to analyse for ?</label>
+					<input type="text" name="ptext" class="form-control" value={{request.form.ptext}}>
+				</div>
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		
+</ul>
+{% endblock %}
