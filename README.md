@@ -16,3 +16,8 @@ Our dataset for training contains 1,600,000 tweets extracted using Twitter API. 
 # Conclusion
 
 So, to overcome this we are taking more that 1 million twitter data into account and training our model over these slangs and hence predicting it. Our model is achieving accuracy on range of 70%-80% on different datasets of different microblogs. Using which, we are analysing microblogs and calculating it’s score by taking consideration of every word and relation of slang meaning with respect to the context. Which will finally compute the score of a microblog and on the scale of 0-1 up to 8 decimal places we are predicting the score of a microblog and further using scores we can classify the microblog and assign them labels. This can help a business to understand the social sentiment of their brand, product or service which monitoring online conversations.
+
+# WSA
+
+It's web-app based on Flask framework which takes input of micro-blogs and displays it's sentiment score.
+
