@@ -2,10 +2,9 @@
 
 
 
-So, this project which uses power of natual level processing for and gives score of the micro-blogs in range of 0-10, where 0 for most negative and 10 for most psitive sentiment.
+So, this project which uses the power of natural language processing for and gives a score of the micro-blogs in range of 0-10, where 0 for most negative and 10 for the most positive sentiment.
 
-In this I developed a model which not only focuses on keywords which also takes into consideration of every single words and try to overcome slangs by making custom dataset and using stemmers to find its original keyword and meaning. Hence, it makes our model different in the form and capability that it can also detects and analyse informal English, which are
-mostly used in microblogs.
+In this, I developed a model which not only focuses on keywords which also takes into consideration of every single word and try to overcome slangs by making custom dataset and using stemmers to find its original keyword and meaning. Hence, it makes our model different in the form and capability that it can also detect and analyze informal English, which is mostly used in microblogs.
 
 E.g. For love one can write many variants which are not in English dictionary like “luv”, “lub”, etc. and same one word can be even used to describe sentences also.
 
